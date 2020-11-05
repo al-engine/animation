@@ -53,7 +53,6 @@
     "typescript": "^4.0.5"
   },
   "dependencies": {
-    "asset": "file:../asset",
     "core": "file:../core"
   }
 }

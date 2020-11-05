@@ -1,5 +1,4 @@
-import {SpriteMapAsset} from "asset";
-import {DeltaTime, log, LogLevel} from "core";
+import {DeltaTime, log, LogLevel, Asset, SpriteMap} from "core";
 
 interface AnimationDataParam {
   [index: string]: Array<number>
@@ -7,7 +6,7 @@ interface AnimationDataParam {
 
 export class AnimationData {
   constructor (
-    public map: SpriteMapAsset,
+    public map: Asset<SpriteMap>,
     public animations: AnimationDataParam
   ) {
 
