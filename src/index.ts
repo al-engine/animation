@@ -30,7 +30,7 @@ export class AnimationData {
   }
 }
 
-export class Animation {
+export class SpriteAnimation {
   name = '';
   timer = 0;
   constructor(public animationData: AnimationData, public speed: number) {}
